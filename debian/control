@@ -1,0 +1,12 @@
+Source: ros-indigo-bluetooth-pair
+Section: misc
+Priority: extra
+Maintainer: Mike O'Driscoll <modriscoll@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-roslint, ros-indigo-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-bluetooth-pair
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, bluez, python-gtk2, ros-indigo-message-runtime, ros-indigo-rospy
+Description: The bluetooth_pair package, provides remote ability to pair a Bluetooth devices.

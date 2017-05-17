@@ -1,0 +1,34 @@
+ros-indigo-bluetooth-pair (0.0.4-0trusty) trusty; urgency=high
+
+  * CPEZ-1958 Add missing exec depend.
+    Adding missing exec depend for gtk.
+  * Contributors: Mike O'Driscoll
+
+ -- Mike O'Driscoll <modriscoll@clearpath.ai>  Wed, 17 May 2017 04:00:00 -0000
+
+ros-indigo-bluetooth-pair (0.0.3-0trusty) trusty; urgency=high
+
+  * Adding missing rospy depend
+  * Contributors: Mike O'Driscoll
+
+ -- Mike O'Driscoll <modriscoll@clearpath.ai>  Tue, 25 Apr 2017 04:00:00 -0000
+
+ros-indigo-bluetooth-pair (0.0.2-0trusty) trusty; urgency=high
+
+  * Adding test-depend and moving from bin/ to scripts/ dir.
+  * Contributors: Mike O'Driscoll
+
+ -- Mike O'Driscoll <modriscoll@clearpath.ai>  Thu, 09 Mar 2017 05:00:00 -0000
+
+ros-indigo-bluetooth-pair (0.0.1-0trusty) trusty; urgency=high
+
+  * Adding BSD license file.
+  * Add bluetooth pairing node
+    Created a node for allowing pairing and management of
+    bluetooth devices via ros services and topics.
+  * Initial Commit of README
+  * Contributors: Mike O'Driscoll
+
+ -- Mike O'Driscoll <modriscoll@clearpath.ai>  Thu, 09 Mar 2017 05:00:00 -0000
+
+

@@ -2,6 +2,12 @@
 Changelog for package bluetooth_pair
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2017-05-17)
+------------------
+* CPEZ-1958 Add missing exec depend.
+  Adding missing exec depend for gtk.
+* Contributors: Mike O'Driscoll
+
 0.0.3 (2017-04-25)
 ------------------
 * Adding missing rospy depend
